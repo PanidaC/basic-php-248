@@ -18,10 +18,10 @@
 </head>
 <body>
     <div id="logreg-forms">
-        <form class="form-signin">
+        <form class="form-signin" action="receive-data.php" method="post">
             <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Sign in</h1>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+            <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+            <input type="password" name="pwd" id="inputPassword" class="form-control" placeholder="Password" required="">
             
             <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</button>
             <!-- <p>Don't have an account!</p>  -->
