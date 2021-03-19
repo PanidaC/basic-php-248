@@ -25,9 +25,11 @@
             echo "email = ".$_POST["email"];
             echo "<br>";
             echo "password = ".$_POST["pwd"];
+            echo "<br>";
 
             for ($x = 1; $x <= $_POST["time"]; $x++) {
                 echo "The number is: $x <br>";
+                echo "<br>";
               }
         }
     ?>
